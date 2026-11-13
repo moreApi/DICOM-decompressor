@@ -1,0 +1,19 @@
+[project]
+name = "dicom-decompressor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Jan Tiemann", email = "j.tiemann@hzdri.de" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "python-gdcm>=3.2.6",
+]
+
+[project.scripts]
+dicom-decompressor = "dicom_decompressor:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
