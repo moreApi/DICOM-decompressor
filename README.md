@@ -1,3 +1,4 @@
+This is mostly vibed.
 # dicom-decompressor
 
 Takes a `DICOMDIR` (the index file found on DICOM CDs, DVDs and USB exports),
